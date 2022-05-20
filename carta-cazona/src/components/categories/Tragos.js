@@ -1,10 +1,11 @@
 import React from 'react';
-import Item from './Item';
+import Item from '../Item';
 
-function Menu(props) {
+function Tragos(props) {
     return (
         <div className='inicio' id='menu'>
-            <div className='contenedor-categorias'>
+            <h1>Tragos</h1>
+            <div className='container-category'>
                 <Item
                     link=''
                     descripcionDelItem=''
@@ -15,4 +16,4 @@ function Menu(props) {
     );
 }
 
-export default Menu;
+export default Tragos;

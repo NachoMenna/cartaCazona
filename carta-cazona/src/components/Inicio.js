@@ -1,39 +1,39 @@
 import React from 'react';
-import Categoria from './Categoria';
+import Category from './Category';
 
 function Inicio(props) {
     return (
         <div className='inicio'>
-            <div className='contenedor-categorias'>
-                <Categoria
+            <div className='container-category'>
+                <Category
                     link='menu'
-                    imagen=''
-                    textoCategoria='Menu'
+                    image=''
+                    textCategory='Menu'
                 />
-                <Categoria
+                <Category
                     link='postres'
-                    imagen=''
-                    textoCategoria='Potres'
+                    image=''
+                    textCategory='Postres'
                 />
-                <Categoria
-                    id='bebidasSinAlcohol'
-                    imagen=''
-                    textoCategoria='Bebidas sin alcohol'
+                <Category
+                    link='bebidasSinAlcohol'
+                    image=''
+                    textCategory='Bebidas sin alcohol'
                 />
-                <Categoria
-                    id='cervezas'
-                    imagen=''
-                    textoCategoria='Cervezas'
+                <Category
+                    link='cervezas'
+                    image=''
+                    textCategory='Cervezas'
                 />
-                <Categoria
-                    id='vinos'
-                    imagen=''
-                    textoCategoria='Tragos'
+                <Category
+                    link='vinos'
+                    image=''
+                    textCategory='Tragos'
                 />
-                <Categoria
-                    id='tragos'
-                    imagen=''
-                    textoCategoria='Vinos'
+                <Category
+                    link='tragos'
+                    image=''
+                    textCategory='Vinos'
                 />
             </div>
         </div>
