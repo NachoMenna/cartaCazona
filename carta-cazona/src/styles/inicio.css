@@ -1,0 +1,26 @@
+.holder {
+  margin-top: 120px;
+}
+
+.contenedor-categorias {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-categoria {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.categoria {
+  margin-top: -30px;
+}
+
+.categoria img {
+  filter: brightness(68%);
+}

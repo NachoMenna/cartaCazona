@@ -1,21 +1,18 @@
-import React from 'react';
+import React from "react";
+import "../styles/item.css";
 
 function Item(props) {
-    return (
-        <div className='item'>
-            <div className='comida'>
-                <div className='nombre-del-item'>
-                    <p>{(props.nameItem)}</p>
-                    <p className='descripcion-del-item'>{(props.descriptionItem)}</p>
-                </div>                
-                <div className='linea-central'>
-                </div>
-                <div className='precio-del-item'>
-                    <p>${(props.priceItem)}</p>
-                </div>
-            </div>
-        </div>
-    );
+  return (
+    <div id="items">
+      <div className="comida">
+        <div className="nombre item">{props.nombreItem}</div>
+        <div className="precio item">{props.precioDelItem}</div>
+      </div>
+      <div className="descripcion item">
+        <p>{props.descripcionDelItem}</p>
+      </div>
+    </div>
+  );
 }
 
 export default Item;
