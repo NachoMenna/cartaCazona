@@ -9,7 +9,7 @@ function Menu(props) {
       <Nav className="navbar" />
       <div className="holder">
         <h1 className="titulo-central">Menu</h1>
-        <h3 className="subtitulo">PAPAS</h3>
+        <h3 className="titulo-secundario">PAPAS</h3>
         <div className="contenedor-categoria">
           <Item
             nombreItem="PAPAS CLÁSICAS"
@@ -43,7 +43,7 @@ function Menu(props) {
           />
         </div>
 
-        <h3 className="subtitulo">EMPANADAS</h3>
+        <h3 className="titulo-secundario">EMPANADAS</h3>
         <div className="contenedor-categoria">
           <Item
             nombreItem="ARABES"
@@ -61,7 +61,7 @@ function Menu(props) {
             precioDelItem="$ 420,00"
           />
         </div>
-        <h3 className="subtitulo">TABLAS</h3>
+        <h3 className="titulo-secundario">TABLAS</h3>
         <div className="contenedor-categoria">
           <Item
             nombreItem="TABLA CALIENTE"
@@ -89,7 +89,7 @@ function Menu(props) {
             precioDelItem="$ 420,00"
           />
         </div>
-        <h3 className="subtitulo">WRAPS</h3>
+        <h3 className="titulo-secundario">WRAPS</h3>
         <div className="contenedor-categoria">
           <Item
             nombreItem="WRAP DE POLLO Y VERDURAS"
@@ -112,7 +112,7 @@ function Menu(props) {
             precioDelItem="$ 420,00"
           />
         </div>
-        <h3 className="subtitulo">LOMOS</h3>
+        <h3 className="titulo-secundario">LOMOS</h3>
         <div className="contenedor-categoria">
           <Item
             nombreItem="SIMPLE"
@@ -140,7 +140,7 @@ function Menu(props) {
             precioDelItem="$ 420,00"
           />
         </div>
-        <h3 className="subtitulo">HAMBURGUESAS</h3>
+        <h3 className="titulo-secundario">HAMBURGUESAS</h3>
         <div className="contenedor-categoria">
           <Item
             nombreItem="CLÁSICA"
