@@ -8,6 +8,8 @@ function Tragos(props) {
       <Nav className="navbar" />
       <div className="holder">
         <h1 className="titulo-central">TRAGOS</h1>
+        <h3 className="titulo-secundario">TRAGOS</h3>
+
         <div className="contenedor-categoria">
           <Item
             nombreItem="CAIPIRINHA CLÁSICA / MARACUYA"

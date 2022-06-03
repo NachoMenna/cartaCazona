@@ -8,7 +8,7 @@ function BebidasSinAlcohol(props) {
       <Nav className="navbar" />
       <div className="holder">
         <h1 className="titulo-central">BEBIDAS SIN ALCOHOL</h1>
-        <h3 className="subtitulo">POSTRES (Individuaes)</h3>
+        <h3 className="titulo-secundario">POSTRES (Individuaes)</h3>
         <div className="contenedor-categoria">
           <Item
             nombreItem="LICUADOS FRUTALES: CON LECHE / CON AGUA."

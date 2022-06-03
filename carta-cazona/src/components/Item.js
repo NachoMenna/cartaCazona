@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createRef, useRef } from "react";
 import "../styles/item.css";
 
 function Item(props) {

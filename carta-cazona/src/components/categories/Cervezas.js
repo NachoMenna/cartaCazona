@@ -8,7 +8,7 @@ function Cervezas(props) {
       <Nav className="navbar" />
       <div className="holder">
         <h1 className="titulo-central">CERVEZAS</h1>
-        <h3 className="subtitulo">CERVEZAS</h3>
+        <h3 className="titulo-secundario">CERVEZAS</h3>
         <div className="contenedor-categoria">
           <Item
             nombreItem="HOPPY ALE"

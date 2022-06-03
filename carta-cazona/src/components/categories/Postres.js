@@ -14,14 +14,12 @@ function Postres(props) {
       <Nav className="navbar" />
       <div className="holder">
         <h1 className="titulo-central">Postres</h1>
-        <div className="subtitulo">
-          <h3 className="titulo-secundario">POSTRES (Individuales)</h3>
-          <div className="iconos">
-            <FontAwesomeIcon icon={faCakeCandles} color="black" id="icon" />
-            <FontAwesomeIcon icon={faIceCream} color="black" id="icon" />
-            <FontAwesomeIcon icon={faCookie} color="black" id="icon" />
-          </div>
-        </div>
+        <h3 className="titulo-secundario">POSTRES (Individuales)</h3>
+        {/* <div className="iconos">
+          <FontAwesomeIcon icon={faCakeCandles} color="black" id="icon" />
+          <FontAwesomeIcon icon={faIceCream} color="black" id="icon" />
+          <FontAwesomeIcon icon={faCookie} color="black" id="icon" />
+        </div> */}
         <div className="contenedor-categoria">
           <Item
             nombreItem="TIRAMUSÚ"

@@ -24,3 +24,9 @@
 .categoria img {
   filter: brightness(68%);
 }
+
+@media (min-width: 730px) {
+  .categoria {
+    margin: 20px;
+  }
+} ;
